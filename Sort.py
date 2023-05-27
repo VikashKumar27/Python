@@ -21,3 +21,23 @@ print(thislist)
 list2 = [1,2,3,4]
 print(max(list2))
 
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+print(thislist[::-1])
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+print(thislist[-1:])
+
+string = "Banana"
+print(string[::-1])
+print(string[0])
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+newlist = [item[::-1] for item in thislist]
+print(newlist)
+
+
+
