@@ -18,3 +18,6 @@ thislist = ["orange", "mango", "kiwi", "pineapple", "banana","Apple" ,"Cat","z-i
 thislist.sort(reverse= True)
 print(thislist)
 
+list2 = [1,2,3,4]
+print(max(list2))
+
