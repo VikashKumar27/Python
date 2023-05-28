@@ -22,5 +22,21 @@ for x in list2:
 
 print(list1)
 
+points = [1,1,1]
+# count1 = [2,1,1,2,1,1,1]
+count1 = []
+
+for x in points:
+    var1 = points.count(x)
+    count1.append(var1)
+
+print("counts of points : ",count1)
+
+
+
+
+
+
+
 
 
