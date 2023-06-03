@@ -40,3 +40,5 @@ print("counts of points : ",count1)
 
 
 
+
+
