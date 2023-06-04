@@ -15,19 +15,19 @@
 #     print("yes")
 
 age = int(input("Enter the age : "))
-while True:
-    if 50<=age<=80:
-        print("old age")
-        break
-    elif 40<=age<=50:
-        print("Profession age")
-        break
-    elif 30<=age<=35:
-        print("Marraige age")
-        break
-    elif 21<=age<=29:
-        print("Education age")
-        break
-    else:
-        print("Not Matching condition....")
-        break
+
+if 50<=age<=80:
+    print("old age")
+        
+elif 40<=age<=50:
+    print("Profession age")
+        
+elif 30<=age<=35:
+    print("Marraige age")
+        
+elif 21<=age<=29:
+    print("Education age")
+        
+else:
+    print("Not Matching condition....")
+      
