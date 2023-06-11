@@ -17,3 +17,4 @@ search_item = 4
 for item in range(len(list)):
     if search_item == list[item]:
         print("index of search_item is : ",item)
+
