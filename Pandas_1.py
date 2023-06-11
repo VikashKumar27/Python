@@ -19,5 +19,3 @@ print("****************************")
 print(dataFrame.tail(1))
 
 print("*******************************")
-
-print(dataFrame.option.diaplay.max_row)

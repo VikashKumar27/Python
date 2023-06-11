@@ -1,4 +1,4 @@
-class person(object):
+class person:
     
     def speak(self):
         print("Speaking....")
