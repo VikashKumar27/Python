@@ -1,4 +1,4 @@
-class employee:
+class employee1:
     def store_details(self,name , dept, email,age):
         self.name = name
         self.dept = dept
@@ -7,8 +7,8 @@ class employee:
     def display(self):
         print(self.name+" "+self.dept+" "+self.email+" "+str(self.age))
 print("Main function starts..")
-for i in range(1,11):
-    e1 = employee()
+for i in range(1):
+    e1 = employee1()
     name  = input("Enter name : ")
     dept  = input("Enter dept : ")
     email  = input("Enter email : ")

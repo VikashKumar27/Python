@@ -3,7 +3,7 @@
 # in python constructor is init function
 # when object of class is created constructor automatically called
 class constructor:
-    def __init__(self,name,age):
+    def __init__(self,name,age): # 
         self.name = name
         self.age = age
     def display(self):
@@ -11,6 +11,11 @@ class constructor:
 
 c1 = constructor("Vikash",23)
 c1.display()
+
+# types of constructor
+# 1. Default constructor - 
+# 2. Parametrized constructor
+# 3. Non parametrized constructor
 
 
 
